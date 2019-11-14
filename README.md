@@ -13,31 +13,49 @@ ColorJS est une librairie JS que vous pouvez utiliser pour créer des diaporamas
 | Avantages | Inconvénients |
 | :--- | :--- |
 | Fonctionne sur n'importe quel navigateur | Nécessité de savoir coder pour créer des diaporamas |
-| Open-source et très simple |  |
+| Open-source et très simple | Moins complet que des solutions comme slides.com |
 | Quasiment sans limites \(vous pouvez étendre ses fonctionnalités si vous savez utiliser javascript\) |  |
-| Synchronisation entre 2 appareils très simple |  |
-
-
+| Synchronisation temps-réel entre 2 appareils facilitée |  |
+| Vous pouvez publier votre diaporama comme un site web |  |
 
 ### Comment ça fonctionne
 
-ColorJS se charge d'importer les styles nécessaires pour la mise en page du diaporama. Ensuite il fait correspondre des actions clavier à des ajouts/suppressions de classes pour faire progresser l'animation.
+ColorJS se charge d'importer les styles nécessaires pour la mise en page du diaporama. Ensuite il fait correspondre des actions clavier à des ajouts/suppressions de classes CSS pour faire progresser l'animation.
 
-> Whaaat ? J'ai pas compris...
-
-Par exemple, si vous avez simplement 3 `div`avec la classe `cjs-slide` \(des diapositives colorJS, donc\) dans votre document HTML, le script va ajouter chacun de ces divs à la liste des éléments animés et va les animer dans l'ordre où ils apparaissent dans le code.
+Chaque slide est un élément `div` avec la classe `cjs-slide`. Le script ajoute la classe `current` à la slide en cours, et les transition et animations sont définies en CSS \(par vous-même ou avec les propriétés livrées par défaut\).
 
 Pour laisser un maximum de flexibilité, le script ajout la classe `current` à la slide en cours et la classe `prev`à toutes les slides déjà passées. Ainsi vous pouvez choisir sur quelles propriétés CSS les changements s'appliquent.
 
 Si vous voulez qu'un élément apparaisse seulement à un moment précis, vous pouvez lui ajouter l'attribut `cjs-animate`
 
-### Dépot officiel
+### Exemple de fichier diaporama
 
-Ce dépôt est celui de la documentation en français. Le dépôt avec le code source et la documentation en anglais peut être trouvé sur [Le dépôt officiel](https://github.com/leoboyerbx/colorjs).
+```markup
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Titre de mon diaporama</title>
+    
+    <script defer src="path/to/colorjs.bundle.js">
+</head>
+<body>
+    <div id="cjs-slider">
+        <div class="cjs-slide" style="background-color: #f00">
+            Ma première slide
+        </div>
+        <div class="cjs-slide" style="background-color: #8e44ad">
+            Ma deuxième slide
+        </div>
+    </div>
 
-### Comment utiliser ColorJS
+</body>
+</html>
+```
 
-Tout est détaillé sur [la documentation](https://colorjs.readthedocs.io/fr/latest/)
+Assez simple non ?
+
+Pour en savoir plus, consultez la documentation pas-à-pas.
 
 
 
