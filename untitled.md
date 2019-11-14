@@ -24,6 +24,14 @@ La première méthode est de télécharger l'archive indiquée plus haut.
 
 Vous obtenez dans l'archive la structure suivante:
 
+```text
+.
+├── assets
+|   ├── begin-with-the-crazy-ideas.textile
+|   └── on-simplicity-in-technology.markdown
+└── index.html
+```
+
 * `example.html`: Un diaporama d'exemple déjà créé. vous pouvez l'ouvrir pour voir à quoi ressemble un diaporama déjà existant. Il est facultatif et vous pouvez le supprimer.
 * `index.html`: Un fichier HTML avec les éléments de base pour commencer la création de votre diaporama.
 * `force-ratio.html`: Une page qui permet d'afficher le diaporama contenu dans `index.html`, mais en conservant le ratio d'aspect 16:9 \(modifiable\).
