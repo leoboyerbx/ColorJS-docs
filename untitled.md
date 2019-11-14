@@ -26,23 +26,34 @@ Vous obtenez dans l'archive la structure suivante:
 
 ```text
 .
-├── assets
-|   ├── begin-with-the-crazy-ideas.textile
-|   └── on-simplicity-in-technology.markdown
+├── assets/
+|   ├── fonts/
+|   ├── images/
+|   ├── colorjs.bundle.css
+|   └── colorjs.bundle.js
+├── example.html
+├── force-ratio.html
 └── index.html
 ```
 
 * `example.html`: Un diaporama d'exemple déjà créé. vous pouvez l'ouvrir pour voir à quoi ressemble un diaporama déjà existant. Il est facultatif et vous pouvez le supprimer.
 * `index.html`: Un fichier HTML avec les éléments de base pour commencer la création de votre diaporama.
 * `force-ratio.html`: Une page qui permet d'afficher le diaporama contenu dans `index.html`, mais en conservant le ratio d'aspect 16:9 \(modifiable\).
-* `dist`: ce dossier contient `bundle.js`, le script en lui-même. Vous pouvez déplacer ce fichier mais n'oubliez pas dans ce cas de mettre à jour le chemin vers `bundle.js` dans `index.html`.
-* `assets`: Ce dossier contient des feuilles de style et la bobliothèque fontawesome ui sont nécessaires au fonctionnement du script. Il ne faut pas déplacer ce dossier et son contenu par rapport à `index.html`, sinon le script ne fonctionnera plus.
+* `assets/`
+  * `fonts/` et `images/`: dossiers nécessaires pour la librairie [FontAwesome](https://fontawesome.com/).
+  * `colorjs.bundle.css`: les styles utilisés par ColorJS
+  * `colorjs.bundle.js`: le script ColorJS en lui-même, à inclure dans la pages html de votre diaporama.
 
-Vous pouvez créer le contenu de votre diaporama dans `index.html`.
+Vous pourrez ensuite créer le contenu de votre diaporama dans `index.html`.
 
 ## Avec le CDN
 
-ColorJS dispose d'un CDN accessible à l'adresse [cdn.colorjs.cf](http://cdn.colorjs.cf). Il permet d'éviter d'avoir à télécharger des fichiers.
+ColorJS dispose également d'un CDN accessible à l'adresse [cdn.colorjs.cc](https://cdn.colorjs.cc/). Il permet d'éviter d'avoir à télécharger des fichiers.
+
+Routes disponibles:
+
+* Par numéro de version: `/v#/colorjs.bundle.js` \(ex: `/v1.0/colorjs.bundle.js`\)
+* Dernière version directement: `/latest/colorjs.bundle.js`
 
 Pour l'utiliser, partez d'un fichier HTML5 standard, par exemple:
 
@@ -61,10 +72,10 @@ Pour l'utiliser, partez d'un fichier HTML5 standard, par exemple:
 
 Dans le body, créez un `div` qui a l'id `cjs-slider`. C'est le **Slider**, l'élément qui contiendra toutes vos _slides_ \(diapos\).
 
-Enfin juste avant la balise `</body>`, ajoutez la ligne de code:
+Enfin dans la section `head`, ajoutez la ligne de code:
 
 ```markup
-<script src="https://cdn.colorjs.cf/v0.8/colorjs-min.js"></script>
+<script defer src="https://cdn.colorjs.cc/v1.0/colorjs.bundle.js"></script>
 ```
 
 Ce qui doit donner :
@@ -75,13 +86,13 @@ Ce qui doit donner :
 <head>
     <meta charset="utf-8" />
     <title>Titre de mon diaporama</title>
+    
+    <script defer src="https://cdn.colorjs.cc/v1.0/colorjs.bundle.js"></script>
 </head>
 <body>
     <div id="cjs-slider">
 
     </div>
-
-    <script src="https://cdn.colorjs.cf/v0.8/colorjs-min.js"></script>
 </body>
 </html>
 ```
@@ -89,6 +100,8 @@ Ce qui doit donner :
 Vous êtes prêt à créer votre diaporama !
 
 > **Attention:** Si vous utilisez le CDN, il faudra disposer d'une connexion internet à chaque fois que vous projetterez le diaporama, il peut être plus prudent d'utiliser la première méthode si vous avez un doute.
+>
+> En revanche le CDN est une très bonne solution si vous prévoyez de publier le diaporama sur un serveur.
 
 
 
