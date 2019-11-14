@@ -8,4 +8,5 @@
 * [Créer une présentation](creer-une-presentation.md)
 * [Transitions](transitions.md)
 * [Official site](https://www.colorjs.cc)
+* [Animations individuelles](animations-individuelles.md)
 
