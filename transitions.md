@@ -12,7 +12,6 @@ Pour ajouter des transitions, il faut modifier les classes de vos slides.
 On modifie toujours la transition de la slide qui _arrive_, pas de la slide qui part. Par exemple, si je veux un fondu pour passer de la slide 1 à 2, je mettrai la classe `fade` **sur la slide 2**. Exemple, en modifiant notre code:
 
 ```markup
-<!-- Début du fichier -->
 <div id="cjs-slider">
         <div class="cjs-slide" style="background-color: #f00">
             Ma première slide
@@ -21,7 +20,6 @@ On modifie toujours la transition de la slide qui _arrive_, pas de la slide qui 
             Ma deuxième slide
         </div>
 </div>
-<!-- Fin du fichier-->
 ```
 
 On obtient un joli fondu entre les deux slides.

@@ -70,7 +70,11 @@ Votre fichier HTML ressemble maintenant à ceci:
 </html>
 ```
 
-Il est temps de voir le résultat ! Ouvrez votre fichier HTML dans un navigateur et utilisez les flèches de votre clavier ou les commandes à l'écran pour changer de diapo.
+Il est temps de voir le résultat ! Ouvrez votre fichier HTML dans un navigateur et utilisez les flèches de votre clavier, la molette ou les commandes à l'écran pour changer de diapo.
+
+{% embed url="https://codepen.io/leoboyerbx/pen/WNNadoZ" %}
+
+
 
 > Voici votre premier diaporama ColorJS ! Vous pouvez ajouter votre propre fichier CSS pour modifier votre mise en page, et complexifier le contenu autant que vous le souhaitez.
 
