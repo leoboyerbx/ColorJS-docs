@@ -1,8 +1,10 @@
 # ColorJS - Docs
 
-Welcome to the ColorJS documentation. This documentation is available in French and in English.
+> This is the English Version. [Version française](https://docs.colorjs.cc/v/fr/)
 
-French
+
+
+
 
 
 
