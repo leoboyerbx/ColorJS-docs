@@ -59,5 +59,7 @@ Assez simple non ?
 
 Pour en savoir plus, consultez la documentation pas-à-pas.
 
+### Démonstration de tous les effets de transition fournis
+
 
 
