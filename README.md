@@ -1,8 +1,8 @@
 ---
-description: Une simple librairie pour créer des diaporamas en HTML/CSS
+description: 'ColorJS, Une simple librairie pour créer des diaporamas en HTML/CSS'
 ---
 
-# ColorJS - Docs
+# Accueil
 
 > Vous êtes sur la version française de la documentation. [English Version](https://docs.colorjs.cc/v/en/)
 
@@ -17,6 +17,8 @@ ColorJS est une librairie JS que vous pouvez utiliser pour créer des diaporamas
 | Quasiment sans limites \(vous pouvez étendre ses fonctionnalités si vous savez utiliser javascript\) |  |
 | Synchronisation temps-réel entre 2 appareils facilitée |  |
 | Vous pouvez publier votre diaporama comme un site web |  |
+
+* **slide**: Une diapositive
 
 ### Comment ça fonctionne
 

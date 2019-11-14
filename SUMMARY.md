@@ -1,8 +1,9 @@
 # Table of contents
 
-* [ColorJS - Docs](README.md)
+* [Accueil](README.md)
 
 ## fr
 
 * [Démarrer](untitled.md)
+* [Créer une présentation](creer-une-presentation.md)
 
