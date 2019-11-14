@@ -24,9 +24,13 @@ On modifie toujours la transition de la slide qui _arrive_, pas de la slide qui 
 
 On obtient un joli fondu entre les deux slides.
 
+{% embed url="https://codepen.io/leoboyerbx/pen/OJJBzpW" %}
+
 ### Liste des transitions disponibles
 
+{% hint style="info" %}
 **Rappel:** Si aucune transition n'est spécifiée, le changement d'une slide à l'autre se fera par un simple "cut".
+{% endhint %}
 
 #### Transitions de premier niveau
 
@@ -67,7 +71,9 @@ Ce code produira un effet de poussée de la deuxième slide qui va _légèrement
 
 #### Transitions de second niveaux
 
-Ces effets s'ajoutent à un effet déjà existant. Utilisées seules, les classes n'ont aucune action.
+{% hint style="info" %}
+Ces effets s'ajoutent à un effet déjà existant. Utilisées seules, ces classes n'ont aucune action.
+{% endhint %}
 
 **Liste des effets**
 
@@ -78,7 +84,9 @@ Pour 2 slides A et B
 | `cover` | B recouvre totalement A | `bottom`, `right`, `top`, `left` |
 | `push` | B pousse totalement A | `bottom`, `right`, `top`, `left` |
 
+{% hint style="warning" %}
 **Ne pas utiliser ces effets avec `fade`**.
+{% endhint %}
 
 **Exemple**
 
