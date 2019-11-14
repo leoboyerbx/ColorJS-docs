@@ -2,8 +2,9 @@
 
 * [Accueil](README.md)
 
-## fr
+## Création d'un diaporama <a id="creation"></a>
 
 * [Démarrer](untitled.md)
 * [Créer une présentation](creer-une-presentation.md)
+* [Transitions](transitions.md)
 
