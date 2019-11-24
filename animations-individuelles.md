@@ -27,7 +27,7 @@ Cela produira une apparition en fondu du `span` lors du premier clic. En effet l
 
 ### Apparitions personnalisées
 
-Il est également possible de créer vos propres effets d'apparition. Pour cela il est nécéssaire de comprendre le fonctionnement de ColorJS:
+Il est également possible de créer vos propres effets d'apparition. Pour cela il est nécessaire de comprendre le fonctionnement de ColorJS:
 
 * Lorsqu'un élément n'est pas encore affiché, il n'a pas de classe particulière, à part celles définies par l'utilisateur.
 * Lorsque c'est au tour de l'élément d'apparaître, le script lui ajoute la classe `current`. Ainsi les effets prédéfinis ne sont que des règles CSS avec et sans `current`
@@ -61,5 +61,9 @@ Maintenant on ajoute la classe correspondante à notre élément HTML, sans oubl
 <div class="rotate" cjs-animate="1">Contenu caché au départ</div>
 ```
 
-Et voilà ! Vous avaez maintenant tous les outils pour créer votre présentation !
+Le résultat final:
+
+{% embed url="https://codepen.io/leoboyerbx/pen/wvvbGWv" %}
+
+
 
