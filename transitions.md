@@ -46,6 +46,8 @@ Les transitions de premier niveaux sont les effets de transition par défaut qui
 
 On ajoute la classe à la suite de `cjs-slide`.
 
+
+
 **Liste des transitions**
 
 Pour 2 slides A et B
@@ -102,4 +104,6 @@ Pour 2 slides A et B
 ```
 
 Ce code produira un effet de poussée de la deuxième slide qui va _totalement_ recouvrir la première.
+
+### Démonstration de tous les effets de transition fournis
 
