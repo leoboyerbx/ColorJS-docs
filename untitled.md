@@ -75,7 +75,7 @@ Dans le body, créez un `div` qui a l'id `cjs-slider`. C'est le **Slider**, l'é
 Enfin dans la section `head`, ajoutez la ligne de code:
 
 ```markup
-<script defer src="https://cdn.colorjs.cc/v1.0/colorjs.bundle.js"></script>
+<script defer src="https://cdn.colorjs.cc/v1.0.1/colorjs.bundle.js"></script>
 ```
 
 Ce qui doit donner :
@@ -87,7 +87,7 @@ Ce qui doit donner :
     <meta charset="utf-8" />
     <title>Titre de mon diaporama</title>
     
-    <script defer src="https://cdn.colorjs.cc/v1.0/colorjs.bundle.js"></script>
+    <script defer src="https://cdn.colorjs.cc/v1.0.1/colorjs.bundle.js"></script>
 </head>
 <body>
     <div id="cjs-slider">
