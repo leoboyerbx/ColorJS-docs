@@ -6,7 +6,7 @@ description: 'ColorJS, Une simple librairie pour créer des diaporamas en HTML/C
 
 > Vous êtes sur la version française de la documentation. [English Version](https://docs.colorjs.cc/v/en/)
 
-ColorJS est une librairie JS que vous pouvez utiliser pour créer des diaporamas animés, simplement en tapant du HTML et du CSS. La librairie se charge d'accélérer le processus de création.
+ColorJS est une librairie Javascript que vous pouvez utiliser pour créer des diaporamas animés, simplement en tapant du HTML et du CSS. La librairie se charge d'accélérer le processus de création.
 
 ### Avantages et inconvénients de cette solution
 
